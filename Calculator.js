@@ -9,8 +9,8 @@ var addDivide=document.getElementById("Divide");
 
 add.addEventListener("click",(e) => {
     e.preventDefault();
-    const value1=calculator.value1.value;
-    const value2=calculator.value2.value;
+    const value1=parseInt(calculator.value1.value);
+    const value2=parseInt(calculator.value2.value);
     var result=value1+value2;
     alert(result);
 })
